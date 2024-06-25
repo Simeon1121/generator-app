@@ -1,0 +1,55 @@
+.generator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+  }
+  
+  .box {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    max-width:580px;
+    width: 100%;
+  }
+  
+  .text-adviser {
+    font-size: 28px;
+    color: hsl(193, 38%, 86%); 
+    margin: 20px 0;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+  }
+  
+  .line-divider {
+    margin: 20px 0;
+  }
+  
+  .dice-icon {
+    background-color: hsl(150, 100%, 66%); 
+    border: none;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  .dice-button img {
+    width: 24px; 
+    height: 24px;
+  }
+  @media (max-width: 475px) {
+    .line-divider{
+      width: 60%;
+    }
+    .dice-icon {
+      width: 50px;
+      margin-top: 380px;
+}
+};
